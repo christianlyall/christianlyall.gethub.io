@@ -1,0 +1,87 @@
+/* Basic styles */
+html {
+    background: linear-gradient(to left, #ffcc33, #ffffff);
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Anchor tag styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    border: 3px blue;
+    border-style: dotted solid;
+}
+
+/* Header styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: "Arial", sans-serif;
+}
+
+/* Shadow styling */
+.shadow {
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+/* Article styling */
+article {
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+
+article h3 {
+    column-span: all;
+}
+
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
+}
+
+/* Aside styling */
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+    padding: 1em;
+}
+
+/* Footer styling */
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
+    padding-top: 1em;
+}
+
+/* Fixed paragraph styling */
+p.fixed {
+    width: auto;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
