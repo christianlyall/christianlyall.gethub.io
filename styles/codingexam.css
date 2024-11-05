@@ -1,0 +1,65 @@
+body {
+    width: 95%;
+    margin: 15px auto;
+    background-image: url('background.jpg');
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+
+article {
+    width: 75%;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    position: fixed;
+    top: 100px;
+    list-style-type: square;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #000;
+}
