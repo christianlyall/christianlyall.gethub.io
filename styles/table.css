@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 html, body {
     margin: 1em;
     height: 100%;
@@ -9,7 +9,6 @@ html, body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-/* Table 1 */
 table.first {
     border-collapse: separate;
     border: 2px solid black;
@@ -23,7 +22,6 @@ table.first tr:nth-child(odd) {
     background-color: lightblue;
 }
 
-/* Table 2 */
 table.second {
     border-collapse: collapse;
     border: 2px solid purple;
@@ -44,7 +42,6 @@ table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
 
-/* Table 3 */
 table.third {
     border-collapse: collapse;
     border: 2px solid orangered;
@@ -75,7 +72,6 @@ table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
 }
 
-/* Responsive Styling */
 @media only screen and (max-width: 425px) {
     th, td {
         display: block;
