@@ -65,17 +65,20 @@
         </fieldset>
 
         
-        <fieldset>
-            <legend>Comments</legend>
-            <textarea name="comments" id="comments" placeholder="Enter your comments here..."></textarea><br>
-        </fieldset>
+        <input type="checkbox" id="socialMedia" name="source" value="socialMedia">
+        <label for="socialMedia">Social media</label><br>
 
-        
-        <fieldset id="buttons">
-            <legend>Submit Your Membership</legend>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-        </fieldset>
+        <input type="checkbox" id="emailSource" name="source" value="email">
+        <label for="emailSource">Email</label><br>
+
+        <input type="checkbox" id="friend" name="source" value="friend">
+        <label for="friend">Friend or colleague</label><br><br>
+
+        <h3>Comments</h3>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Submit Your Membership</button>
+        <button type="reset">Reset Fields</button>
     </form>
 </body>
 </html>
